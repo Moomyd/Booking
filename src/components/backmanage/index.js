@@ -7,7 +7,7 @@ import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/
 
 const { SubMenu } = Menu;
 const { Header, Content, Sider } = Layout;
-function Back() {
+function BackManage() {
   return(
     <Layout>
       <Header className="header">
@@ -67,4 +67,4 @@ function Back() {
     </Layout>
   )
 }
-export default Back;
+export default BackManage;
